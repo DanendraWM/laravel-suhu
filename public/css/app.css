@@ -866,6 +866,18 @@ input:checked + .toggle-bg {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
+.mx-52 {
+  margin-left: 13rem;
+  margin-right: 13rem;
+}
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.mx-40 {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -973,6 +985,9 @@ input:checked + .toggle-bg {
 }
 .w-64 {
   width: 16rem;
+}
+.w-32 {
+  width: 8rem;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -1533,11 +1548,38 @@ input:checked + .toggle-bg {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(30 66 159 / var(--tw-ring-opacity));
 }
+@media (min-width: 640px) {
+
+  .sm\:w-full {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .md\:mx-40 {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .md\:max-w-full {
+    max-width: 100%;
+  }
+}
 @media (min-width: 1024px) {
 
   .lg\:mx-3 {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
+  }
+
+  .lg\:mx-40 {
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 
   .lg\:flex {
@@ -1550,6 +1592,10 @@ input:checked + .toggle-bg {
 
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:w-10\/12 {
+    width: 83.333333%;
   }
 
   .lg\:p-6 {

@@ -1,5 +1,5 @@
 <div class="border-b-2">
-    <div class=" h-14 flex items-center mx-auto container w-10/12">
+    <div class=" h-14 flex items-center mx-auto container lg:w-10/12">
         <div class="uppercase font-semibold  lg:text-2xl font-comforter text-lime-700 px-10 dark:text-lime-300">
             Celciot
         </div>

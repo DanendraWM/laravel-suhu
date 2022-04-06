@@ -1,7 +1,7 @@
 @extends('main.home')
 @section('isi')
-    <div class="container rounded-xl mx-auto my-10 p-6 shadow-lg w-1/2 border-t-2">
-        <h2 class=" mx-auto text-center pb-4 border-b-2 font-semibold font-sans text-xl w-1/2 ">Login Here</h2>
+    <div class=" rounded-xl lg:mx-40 md:mx-40 my-10 p-6 shadow-lg border-t-2">
+        <h2 class=" mx-auto text-center pb-4 border-b-2 font-semibold font-sans text-xl w-1/2 md:font-sm">Login Here</h2>
         @if (session()->has('pesan'))
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
                     <p> {{ session('pesan') }}</p>
@@ -22,7 +22,7 @@
                 </button>
                 </div>
             @endif
-        <form class="mt-4 mx-auto w-1/2" action="/login" method="POST">
+        <form class="mt-4 mx-auto  " action="/login" method="POST">
             @csrf
             <label for="username">
                 <span
